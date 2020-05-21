@@ -5,10 +5,12 @@
  */
 header {
   padding: 50px 0 50px;
+  height: auto;
 }
 
 section {
   padding: 200px 0;
+  height: auto;
 }
 
 nav {

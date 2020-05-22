@@ -70,6 +70,7 @@ footer {
 
 .title-news {
   font-size: 25px;
+  
 }
 
 .announce {
@@ -99,3 +100,6 @@ footer {
   /* padding: 50px; */
 }
 
+iframe {
+  margin-top: 30px;
+}

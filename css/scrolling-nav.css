@@ -9,8 +9,8 @@ header {
 }
 
 section {
-  padding: 200px 0;
-  height: auto;
+  padding: 200px 0 ;
+
 }
 
 nav {
@@ -46,8 +46,9 @@ footer {
 }
 
 #about-comp {
-  padding: 20px;
+  /* padding: 20px; */
   line-height: 45px;
+  font-size: 15px;
 }
 
 .card-body {
@@ -75,13 +76,13 @@ footer {
   line-height: 45px;
 }
 
-.allnew {
+/* .allnew {
   border-top-style: solid;
   border-color: chocolate;
   background-color: whitesmoke;
   padding: 20px;
   margin: 30px;
-}
+} */
 
 #link-to {
   width: 100%;
@@ -94,6 +95,7 @@ footer {
 }
 
 #services {
-  padding: 100px;
+  width: 100%;
+  /* padding: 50px; */
 }
 

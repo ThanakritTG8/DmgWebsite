@@ -14,6 +14,7 @@ section {
 }
 
 nav {
+  
   background-color: rgb(13, 59, 145);
   height: auto;
   
@@ -24,7 +25,23 @@ footer {
 }
 
 .nav-item{
-  width: 200px;
+  margin-left: 15px;
+  width: 170px;
+}
+
+.nav-link {
+
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  
+}
+
+.nav-link:hover, .button:hover {
+  background: #CC6600;
+  color: #fff;
+  
 }
 
 .bt-more{

@@ -38,7 +38,7 @@ footer {
   
 }
 
-.nav-link:hover, .button:hover {
+.nav-link:hover {
   background: #CC6600;
   color: #fff;
   

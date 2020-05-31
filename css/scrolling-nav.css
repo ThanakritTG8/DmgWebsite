@@ -44,6 +44,11 @@ footer {
   
 }
 
+#knowmore:hover {
+  background: #CC6600;
+  color: #fff;
+}
+
 .bt-more{
   padding: 40px;
 }
@@ -119,4 +124,14 @@ footer {
 
 iframe {
   margin-top: 30px;
+}
+
+#fixed {
+  background: url(photo/office-clear-sky.jpg) no-repeat center center fixed;
+  display: table;
+  height: 60%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+
 }

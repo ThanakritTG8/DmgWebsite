@@ -190,3 +190,8 @@ header.masthead {
   background: #c0c0c0;
   margin: 10px;
 }
+
+.list-group {
+  padding-bottom: 20px;
+}
+

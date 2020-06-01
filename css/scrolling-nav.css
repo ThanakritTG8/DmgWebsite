@@ -4,7 +4,7 @@ header {
 }
 
 section {
-  padding: 200px 0 ;
+  padding: 100px 0 ;
 
 }
 
@@ -87,8 +87,8 @@ button.navbar-toggler {
   padding: 10px;
 }
 
-.title-news {
-  font-size: 25px;
+#title-new {
+  margin-bottom: 50px;
   
 }
 
@@ -174,4 +174,18 @@ header.masthead {
 
 #fontsers {
   color: rgb(226, 117, 8);
+}
+
+#immigration {
+  border-radius: 20px;
+  border:#a0a0a0 solid;
+  background: #c0c0c0;
+  margin: 10px;
+}
+
+#foreign {
+  border-radius: 20px;
+  border:#a0a0a0 solid;
+  background: #c0c0c0;
+  margin: 10px;
 }

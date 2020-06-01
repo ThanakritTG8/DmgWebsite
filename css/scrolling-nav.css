@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
- */
 header {
   padding: 200px 0 50px;
   height: auto;
@@ -61,6 +56,8 @@ button.navbar-toggler {
 }
 
 #knowmore {
+  background: rgb(13, 59, 145);
+  color: #fff;
   width: 100%;
   border-style: solid;
   border-color: rgb(13, 59, 145);
@@ -99,13 +96,6 @@ button.navbar-toggler {
   line-height: 45px;
 }
 
-/* .allnew {
-  border-top-style: solid;
-  border-color: chocolate;
-  background-color: whitesmoke;
-  padding: 20px;
-  margin: 30px;
-} */
 
 #link-to {
   width: 100%;
@@ -114,7 +104,9 @@ button.navbar-toggler {
 }
 
 #ourservice {
-  margin: 30px; 
+  text-align: center;
+  margin: 5px; 
+  padding: 1.5rem;
 }
 
 #services {
@@ -130,7 +122,6 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  /* color: #fff; */
   background-image: url("../photo/background/photo-of-a-laptop-and-a-tablet-on-the-table-2528118.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -175,4 +166,12 @@ header.masthead {
     padding-bottom: 12.5rem;
   }
 
+}
+
+.topic {
+  color: rgb(13, 59, 145);
+}
+
+#fontsers {
+  color: rgb(226, 117, 8);
 }

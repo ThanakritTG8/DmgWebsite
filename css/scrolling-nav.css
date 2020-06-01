@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 header {
-  padding: 50px 0 50px;
+  padding: 200px 0 50px;
   height: auto;
 }
 
@@ -14,8 +14,8 @@ section {
 }
 
 nav {
-  
-  background-color: rgb(13, 59, 145);
+
+  background-color: rgb(230, 230, 230);
   height: auto;
   
 }
@@ -24,28 +24,27 @@ footer {
   background-color:  rgb(13, 59, 145);
 }
 
-.nav-item{
-  margin-left: 15px;
-  width: 170px;
-}
 
 .nav-link {
 
-  text-align: center;
-  color: #fff;
+  color: rgb(13, 59, 145);
   text-decoration: none;
   transition: 0.3s;
   
 }
 
-.nav-link:hover {
-  background: #CC6600;
-  color: #fff;
+a.nav-link:hover {
   
+  color: rgb(226, 117, 8);
+  
+} 
+
+button.navbar-toggler {
+  color: rgb(13, 59, 145);
 }
 
 #knowmore:hover {
-  background: #CC6600;
+  background: rgb(226, 117, 8);
   color: #fff;
 }
 
@@ -57,7 +56,7 @@ footer {
   padding: 25px;
 }
 
-#news, #clients, #services, #about, #workflow, #contace, nav {
+#news, #clients, #services, #about, #workflow, #contace, nav, header{
   font-family: 'Prompt', sans-serif;
 }
 
@@ -86,8 +85,9 @@ footer {
   margin: 10px;
 }
 
-#logo-company {
-  width: 50%;
+#logo {
+  width: 90px;
+  padding: 10px;
 }
 
 .title-news {
@@ -126,12 +126,53 @@ iframe {
   margin-top: 30px;
 }
 
-#fixed {
-  background: url(photo/office-clear-sky.jpg) no-repeat center center fixed;
-  display: table;
-  height: 60%;
-  position: relative;
-  width: 100%;
+header.masthead {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  /* color: #fff; */
+  background-image: url("../photo/background/photo-of-a-laptop-and-a-tablet-on-the-table-2528118.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
   background-size: cover;
+
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border: none;
+    background-color: transparent;
+    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.5em;
+    transition: font-size 0.3s ease-in-out;
+  }
+
+  #mainNav.navbar-shrink {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(230, 230, 230);
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+  }
+
+  #mainNav .navbar-nav .nav-item {
+    margin-right: 1rem;
+  }
+  #mainNav .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+  }
 
 }

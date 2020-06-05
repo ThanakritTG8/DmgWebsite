@@ -201,7 +201,7 @@ header.masthead {
   padding-bottom: 50px;
 }
 
-#mail-contact {
+#mail {
   width: 100%;
   border-bottom: rgb(13, 59, 145) solid;
   padding-top: 50px;
@@ -215,6 +215,11 @@ header.masthead {
   padding-bottom: 40px;
 }
 
-#address-contact {
+#all-contact {
+  background-color: #c0c0c0;
   
+}
+
+#card-contact {
+  margin-top: 50px;
 }

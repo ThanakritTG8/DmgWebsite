@@ -51,7 +51,7 @@ button.navbar-toggler {
   padding: 25px;
 }
 
-#news, #clients, #services, #about, #workflow, #contace, nav, header{
+#news, #clients, #services, #about, #workflow, #contact, nav, header{
   font-family: 'Prompt', sans-serif;
 }
 
@@ -195,3 +195,26 @@ header.masthead {
   padding-bottom: 20px;
 }
 
+#contact-us {
+  width: 100%;
+  border-bottom: rgb(13, 59, 145) solid;
+  padding-bottom: 50px;
+}
+
+#mail-contact {
+  width: 100%;
+  border-bottom: rgb(13, 59, 145) solid;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+#address {
+  width: 100%;
+  border-bottom: rgba(13, 59, 145, 0.486) solid;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+#address-contact {
+  
+}
